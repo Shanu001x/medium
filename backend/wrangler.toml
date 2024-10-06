@@ -1,0 +1,23 @@
+name = "medium-blog"
+compatibility_date = "2024-09-25"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOTJkYmRkNDYtMjI1YS00MWJiLWFjMTYtMWZiMDNlODgyNzY2IiwidGVuYW50X2lkIjoiMGMzODYyMzE5ZjljYzVhNDY5MmVmMDFkMWRiMDBkMDQ0ZjNkMDQyNGY1N2RlZGYyZTA2NzE0MzIzY2MxZGE5YiIsImludGVybmFsX3NlY3JldCI6IjI1NDU4OGRiLTNmNjgtNDFkNi1hYTU4LTdlYjhhZjRiYjY0OSJ9.W163NNShnIo6Rz1IP7gvKS0-eT21xbRdVunKXzxp0IY"
+JWT_SECRET="Hello"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
